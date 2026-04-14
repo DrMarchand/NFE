@@ -13,7 +13,7 @@ ENGINE_ROOM/atlas.env
 
 ORCHARD/Nodes/*.json
 
-ORCHARD/Projects/*
+ORCHARD/Projects/*.json
 
 ORCHARD/Intelligence/processed_state.json
 

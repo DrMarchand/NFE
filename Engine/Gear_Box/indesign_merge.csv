@@ -1,0 +1,2 @@
+receiptId,timestamp,merchant_legalName,merchant_dba,stripeChargeId,grandTotal,labor_hours,labor_rate,labor_total,print_vendorJobId,print_projectFolder
+REC-1776155228,2026-04-14T04:27:08.184182,Design Orchard LLC,DrMarchand’s Lab⚛︎ratory™,ch_test_123,450.0,,,,,
