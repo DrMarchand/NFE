@@ -1,0 +1,31 @@
+
+# Ignore local secrets
+
+ENGINE_ROOM/atlas.env
+
+*.env
+
+.DS_Store
+
+
+
+# Ignore actual client data (Keep the structure, not the data)
+
+ORCHARD/Nodes/*.json
+
+ORCHARD/Projects/*
+
+ORCHARD/Intelligence/processed_state.json
+
+ORCHARD/Intelligence/*.log
+
+
+
+# Ignore local python environment
+
+Engine/venv/
+
+__pycache__/
+
+*.pyc
+
