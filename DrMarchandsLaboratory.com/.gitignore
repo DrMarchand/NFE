@@ -1,0 +1,25 @@
+# =====================================================================
+# 🛡️ Nɛuro-Forge Engine™ : Git Ignore Shield
+# Purpose: Protects local Sovereign Data from entering the public repo
+# =====================================================================
+# 1. Protect the Dynamic Data (The Cargo)
+cloud_sync/signals/*.json
+cloud_sync/receipts/*.json
+cloud_sync/assets_staging/*
+# 2. Protect the Bookshelf (The Library)
+cloud_sync/BOOKSHELF/YEARS/
+cloud_sync/BOOKSHELF/dead_letters/*.json
+# Allow the foundational notebooks to sync, but ignore user-generated ones
+!cloud_sync/BOOKSHELF/manifest.json
+!cloud_sync/BOOKSHELF/notebooks/001_periodic_table.json
+!cloud_sync/BOOKSHELF/notebooks/002_atomic_thesaurus.json
+cloud_sync/BOOKSHELF/notebooks/*
+!cloud_sync/BOOKSHELF/notebooks/001_periodic_table.json
+!cloud_sync/BOOKSHELF/notebooks/002_atomic_thesaurus.json
+# 3. Protect Engine State
+runtime/cursor.json
+runtime/**pycache**/
+*.pyc
+# 4. OS / System Files
+.DS_Store
+Thumbs.db
