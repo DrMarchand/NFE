@@ -11,18 +11,21 @@ ATLAS_CANVAS="🎨 Creative Canvas™"
 ATLAS_BRIDGE="☁ Cloud Bridge"
 ATLAS_OBSERVER="🪬 Big Brother Dashboard"
 
-ATLAS_VAULT_HOST_LOCAL="neuroforge-pro.local"
-ATLAS_VAULT_HOST_REMOTE="ssh.drmarchandslaboratory.com"
-ATLAS_READER_HOST="neuroforge-air.local"
+# Operational endpoints and filesystem topology are intentionally excluded from
+# this public repository. Supply them through a private runtime environment or
+# an approved secret-management system.
+ATLAS_VAULT_HOST_LOCAL=""
+ATLAS_VAULT_HOST_REMOTE=""
+ATLAS_READER_HOST=""
 
-ATLAS_STORAGE_ROOT="/Volumes"
-ATLAS_LIBRARY_PATH="/Volumes/LIB_2TB/Vault"
-ATLAS_WORKBENCH_PATH="/Volumes/LIB_2TB/Workbench"
-ATLAS_CANVAS_PATH="/Volumes/LIB_2TB/Creative_Canvas"
+ATLAS_STORAGE_ROOT=""
+ATLAS_LIBRARY_PATH=""
+ATLAS_WORKBENCH_PATH=""
+ATLAS_CANVAS_PATH=""
 
-ATLAS_LIBRARY_ALIAS="$HOME/Shared/📚 DrMarchand’s ⚛︎ Library™"
-ATLAS_WORKBENCH_ALIAS="$HOME/Shared/🪑 DrMarchand’s ⚛︎ Workbench™"
-ATLAS_CANVAS_ALIAS="$HOME/Shared/🎨 Creative Canvas™"
+ATLAS_LIBRARY_ALIAS=""
+ATLAS_WORKBENCH_ALIAS=""
+ATLAS_CANVAS_ALIAS=""
 
 ATLAS_LIBRARY_QUOTA="2TB"
 ATLAS_WORKBENCH_QUOTA="3TB"
