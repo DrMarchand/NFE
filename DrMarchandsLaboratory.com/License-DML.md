@@ -1,69 +1,23 @@
-⸻
+# Supplemental License Scope Review
 
+Effective: 2026-08-17  
+Status: Review required; this file does not override an existing license or prior grant
 
-# 🪪 License  
-🏝️ Design Orchard™ | 🌴 Design Orchard LLC © 2026  
-🔬 DrMarchand’s Lab⚛︎ratory™
+Author and default copyright owner: Joseph Kyle Marchand  
+Legal and operating company: Design Orchard LLC  
+Publisher: not established absent a work-specific publication record
 
-This repository and its contents, including code, designs, documentation, and system architecture, are **proprietary and owned exclusively by Design Orchard LLC**.  
+The prior version of this file described proprietary-use restrictions for the Laboratory ecosystem. Its scope, covered files, and authority were not tied to a work-specific rights record.
 
-By accessing, using, or interacting with this repository or any tools, systems, or content provided by:
+This review record does not revoke a permission, expand a restriction, rewrite history, or override the Apache License notice in this repository. For any artifact intended to use supplemental proprietary terms, document:
 
-- 🔬 DrMarchand’s Lab⚛︎ratory™  
-- 📚 DrMarchand’s ⚛︎ Library™  
-- ⚙︎ Nɛuro-Forge Engine™  
-- DrMarchand’s ♾️ OS™  
-- ∞ OS™  
-- 🪑 DrMarchand’s ☸︎ Workbench™  
+1. the exact file and version;
+2. the author and copyright owner;
+3. the license grant and restrictions;
+4. any third-party material;
+5. the effective date and assent mechanism; and
+6. any Design Orchard LLC administrator or publisher role.
 
-you agree to the following license terms:
+Until that review is complete, do not describe all repository contents as exclusively owned by Design Orchard LLC. File-specific and third-party notices remain controlling.
 
----
-
-## 1️⃣ Authorized Use
-- ✅ Access, view, or clone the repository **for personal or internal development purposes only**.  
-- ✅ Use tools and content **as intended within the Lab⚛︎ratory™ ecosystem**.  
-
----
-
-## 2️⃣ Restrictions
-You may **not**:
-
-- ❌ Copy, distribute, or claim ownership of proprietary code, designs, or documentation.  
-- ❌ Reverse engineer, decompile, or disassemble private runtime components.  
-- ❌ Create derivative works without **written permission** from Design Orchard LLC.  
-- ❌ Use trademarks, service marks, or system names without authorization.
-
----
-
-## 3️⃣ Liability
-- All content and tools are provided **as-is**.  
-- Design Orchard LLC is **not liable for any damages or misuse** resulting from your use.  
-
----
-
-## 4️⃣ Updates
-- License terms may be **updated periodically**.  
-- Continued use of the repository constitutes **acceptance of the latest license version**.  
-
----
-
-## 5️⃣ Attribution
-- Any permitted use must include clear attribution:  
-
-© Design Orchard LLC and/or 🔬 DrMarchand’s Lab⚛︎ratory™
-
----
-
-## 📬 Contact
-For licensing inquiries or permissions:  
-[https://drmarchandslab.com](https://drmarchandslab.com)
-
----
-
-**© 2026 🌴 Design Orchard LLC**  
-All Rights Reserved.  
-🔬 DrMarchand’s Lab⚛︎ratory™ | DrMarchand’s ♾️ OS™ | Lionheart℠ | ⚙︎ Nɛuro-Forge Engine™ | 🪑 DrMarchand’s ☸︎ Workbench™
-
-
-⸻
+Trademark status is separate. `TM` and `SM` express claims; the registered symbol requires current mark-specific registration evidence.
