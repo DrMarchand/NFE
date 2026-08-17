@@ -1,14 +1,10 @@
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-⚙︎  Nɛuro-Forge Engine™ : 🔐 MMS-768™ ⚛︎ Active 🟢
-Author  : J.K. Marchand • Cryptographic Publisher
-Authority: © Design Orchard LLC
-Runtime : 🔬 DrMarchand’s Lab⚛︎ratory™
-Archive : 📚 DrMarchand’s ⚛︎ Library™
-Observer: 🪬 Big Brother Dashboard
-
-Notice  : Independent professional framework.
-          Descriptive title, not a licensed claim.
-Safety  : Self-taught. Not a doctor.
-          Not an architect. Not licensed.
-Status  : Developer • Graphic Designer
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
+Author: Joseph Kyle Marchand
+Legal authority: Design Orchard LLC
+Copyright owner: Joseph Kyle Marchand
+Publisher: Not established absent a work-specific publication record
+Runtime: 🔬 DrMarchand’s Lab⚛︎ratory™
+Archive: 📚 DrMarchand’s ⚛︎ Library™
+Status: Working header template; not runtime-health evidence
+Safety: Self-taught. Not a doctor.
+Not an architect. Not licensed.
