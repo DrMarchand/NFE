@@ -1,23 +1,11 @@
-# M5 • Purple Mesh
+# Purple Mesh Notes
 
-Authority: © Design Orchard LLC
-Runtime: 🔬 DrMarchand’s Lab⚛︎ratory™
-Engine: ⚙︎ Nɛuro-Forge Engine™
-Archive: 📚 DrMarchand’s ⚛︎ Library™
+Status: Working topology note; operational values are private
 
-Canonical node: neuroforge-pro
+Legal authority: Design Orchard LLC  
+Author and default copyright owner: Joseph Kyle Marchand  
+Execution system: DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
 
-Library path:
-- /Volumes/LIB_2TB/Vault
+The public repository records only the configuration interface. Operational node names, hostnames, endpoints, local aliases, and filesystem paths must be supplied through private runtime configuration.
 
-Workbench path:
-- /Volumes/LIB_2TB/Workbench
-
-Verified:
-- MMS security verified
-- Library readable locally
-- Workbench readable locally
-- Bridge and mobile presence verified
-
-Status:
-- complete
+A node, path, or “green/purple” label is not proof of availability or archival custody. Runtime state requires dated reachability and behavior evidence.
