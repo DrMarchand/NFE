@@ -37,6 +37,10 @@ class NexusGear:
             print(f"⚠️ [NEXUS] Node {system_id} not found.")
             return None
 
+    def get_internal_job(self, job_id):
+        """Compatibility alias used by the Engine core for Node-backed jobs."""
+        return self.get_partner(job_id)
+
     def save_partner(self, system_id, data):
         """Write a registered Node under the configured private data root."""
         filepath = os.path.join(self.orchard_root, "Nodes", f"{system_id}.json")
