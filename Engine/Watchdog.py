@@ -16,9 +16,7 @@ def required_path(name: str) -> str:
     return os.path.expanduser(value)
 
 
-class SovereignEventHandler(FileSystemEventHandler):
-    """Compatibility class name; handler authority comes from runtime configuration."""
-
+class EngineEventHandler(FileSystemEventHandler):
     def __init__(self):
         self.execution_gear = ExecutionGear()
         self.git_gear = GitGear()
@@ -46,11 +44,15 @@ class SovereignEventHandler(FileSystemEventHandler):
             print(f"🛑 [ROUTING] Node {filename} below Tier 1 threshold.")
 
 
+# Historical import compatibility only; this name does not convey authority.
+SovereignEventHandler = EngineEventHandler
+
+
 class WatchdogDaemon:
     def __init__(self):
         self.watch_dir = required_path("NFE_NODES_ROOT")
         self.observer = Observer()
-        self.handler = SovereignEventHandler()
+        self.handler = EngineEventHandler()
 
     def start(self):
         self.observer.schedule(self.handler, self.watch_dir, recursive=False)
