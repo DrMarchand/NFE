@@ -9,7 +9,7 @@
 | Surface | Purpose |
 | --- | --- |
 | [`Engine/`](Engine/) | Engine primitives and execution-oriented modules |
-| [`core/`](core/) | Shared system and runtime code |
+| [`core/`](core/) | Shared system and release-safe runtime code/templates |
 | [`runtime/`](runtime/) | Runtime-facing components and state helpers |
 | [`ORCHARD/`](ORCHARD/) | Design Orchard integration context |
 | [`archive/`](archive/) | Historical material retained for provenance |
@@ -35,7 +35,10 @@ The Engine may execute, validate, and orchestrate within delegated permission. I
 ## Source map
 
 - [`Engine/core.py`](Engine/core.py) - current Python Engine entry-oriented source.
-- [`core/system/runtime/forge_watcher.py`](core/system/runtime/forge_watcher.py) - runtime observation logic currently checked into the public source tree.
+- [`core/system/runtime/atlas.env.pro`](core/system/runtime/atlas.env.pro) - release-safe configuration template with private runtime values intentionally blank.
+- [`DrMarchandsLaboratory.com/`](DrMarchandsLaboratory.com/) - Laboratory-facing source and working records retained inside the Engine repository.
+
+Topology-aware watchers, private device-state samples, operational host data, and local-production markers are intentionally excluded from the current public branch.
 
 No universal install or production-run command is documented here because the repository does not currently expose one checked-in manifest that proves a single supported execution path across the whole tree.
 
