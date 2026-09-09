@@ -6,7 +6,6 @@
 # ==========================================
 
 import os
-import json
 from datetime import datetime, timezone
 
 import pandas as pd
@@ -35,7 +34,7 @@ class Box:
 class InternalGear:
     def __init__(self, job_id):
         self.nexus = NexusGear()
-        self.system_state = self.nexus.get_internal_job(job_id)
+        self.system_state = self.nexus.get_internal_job(job_id) or {}
 
     def inject(self, box):
         if self.system_state.get("labor"):
@@ -55,7 +54,7 @@ class ValidatorGear:
 
 def run_engine(job_id):
     box = Box()
-
+    box.data["timestamp"] = datetime.now(timezone.utc).isoformat()
     box.data["receiptId"] = f"REC-{int(datetime.now(timezone.utc).timestamp())}"
     box = InternalGear(job_id).inject(box)
 
