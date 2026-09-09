@@ -1,10 +1,7 @@
 DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
-Author: Joseph Kyle Marchand
-Legal authority: Design Orchard LLC
-Copyright owner: Joseph Kyle Marchand
-Publisher: Not established absent a work-specific publication record
-Runtime: 🔬 DrMarchand’s Lab⚛︎ratory™
-Archive: 📚 DrMarchand’s ⚛︎ Library™
-Status: Working header template; not runtime-health evidence
-Safety: Self-taught. Not a doctor.
-Not an architect. Not licensed.
+Legal and operating company: Design Orchard LLC
+Runtime context: 🔬 DrMarchand’s Lab⚛︎ratory™
+Presentation system: DrMarchand’s OS™
+Preservation layer: 📚 DrMarchand’s ⚛︎ Library™
+Status: Public header template; not runtime-health, ownership, registration, or deployment evidence
+Rights: See repository and work-specific rights records
