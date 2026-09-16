@@ -25,12 +25,12 @@ flowchart LR
     LAB --> ENG[DrMarchand’s ⚙︎ Nɛuro-Forge Engine™]
     ENG --> BRIDGE[Explicit bridge interface]
     ENG --> RECEIPT[Evidence / receipts]
-    RECEIPT --> OS[DrMarchand’s OS™ presentation]
+    RECEIPT --> OS[DrMarchand’s ∞ OS™ presentation]
 ```
 
 The Engine may execute, validate, and orchestrate within delegated permission. It does **not** define company authority, make itself sovereign, or absorb external services as internal components.
 
-**DrMarchand’s OS™ remains separate.** The OS presents and routes state; the Engine performs execution work.
+**DrMarchand’s ∞ OS™ remains separate.** The OS presents and routes state; the Engine performs execution work.
 
 ## Source map
 
