@@ -1,7 +1,7 @@
 DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
 Legal and operating company: Design Orchard LLC
 Runtime context: 🔬 DrMarchand’s Lab⚛︎ratory™
-Presentation system: DrMarchand’s OS™
+Presentation system: DrMarchand’s ∞ OS™
 Preservation layer: 📚 DrMarchand’s ⚛︎ Library™
 Status: Public header template; not runtime-health, ownership, registration, or deployment evidence
 Rights: See repository and work-specific rights records
