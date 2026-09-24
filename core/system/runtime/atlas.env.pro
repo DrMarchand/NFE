@@ -1,9 +1,15 @@
 # Public configuration template for DrMarchand’s ⚙︎ Nɛuro-Forge Engine™.
-# This file intentionally contains no operational hostnames, private paths,
-# device identities, credentials, or local-production markers.
+# This file intentionally contains no operational hostnames beyond the declared
+# public Atlas identity/state-source relationship, private paths, device
+# identities, credentials, or local-production markers.
 
-ATLAS_STATUS="Working configuration sample"
+ATLAS_STATUS="Configuration sample; server binding unverified"
 ATLAS_AUTHORITY="Design Orchard LLC"
+ATLAS_IDENTITY="atlas.designorchard.net"
+ATLAS_STATE_SOURCE="server.designorchard.net"
+ATLAS_STATE_RELATION="reads_state_from"
+ATLAS_INSTRUCTION_STATE="BLACK"
+ATLAS_SERVER_STATE="UNKNOWN"
 ATLAS_RUNTIME="🔬 DrMarchand’s Lab⚛︎ratory™"
 ATLAS_ENGINE="DrMarchand’s ⚙︎ Nɛuro-Forge Engine™"
 ATLAS_OS="DrMarchand’s ∞ OS™"
@@ -24,4 +30,4 @@ ATLAS_LIBRARY_ALIAS=""
 ATLAS_WORKBENCH_ALIAS=""
 ATLAS_CANVAS_ALIAS=""
 
-ATLAS_NOTICE="Configuration sample only; runtime state requires direct evidence."
+ATLAS_NOTICE="Template only: BLACK means the instruction binding is not verified; UNKNOWN means no validated server state has been read."
