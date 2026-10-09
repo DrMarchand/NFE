@@ -2,7 +2,7 @@ import os
 import json
 
 # =====================================================================
-# ⚙︎ Nɛuro-Forge Engine™ : Genesis Actuator
+# ⚙︎ Nɛuro-Forge Engine : Genesis Actuator
 # Protocol: Matter Lookup (Periodic Table)
 # =====================================================================
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # ==========================================
-# DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ : Core
+# DrMarchand’s ⚙︎ Nɛuro-Forge Engine : Core
 # Runtime context : 🔬 DrMarchand’s Lab⚛︎ratory™
 # Purpose : Master Receipt & Ledger Synthesis
 # ==========================================

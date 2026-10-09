@@ -42,7 +42,7 @@ class IdentityModule:
         return {
             "status": "ok",
             "identity": "system.engine",
-            "display_name": "DrMarchand’s ⚙︎ Nɛuro-Forge Engine™",
+            "display_name": "DrMarchand’s ⚙︎ Nɛuro-Forge Engine",
             "user": input_data.get("user", "default"),
         }
 

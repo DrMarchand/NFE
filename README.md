@@ -1,4 +1,4 @@
-# DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
+# DrMarchand’s ⚙︎ Nɛuro-Forge Engine
 
 > The bounded execution and orchestration layer used by DrMarchand’s Laboratory to turn validated definitions into reproducible work.
 
@@ -22,7 +22,7 @@ A directory name proves presence only. Deployment, production health, encryption
 ```mermaid
 flowchart LR
     H[Authorized human] --> LAB[Laboratory context]
-    LAB --> ENG[DrMarchand’s ⚙︎ Nɛuro-Forge Engine™]
+    LAB --> ENG[DrMarchand’s ⚙︎ Nɛuro-Forge Engine]
     ENG --> BRIDGE[Explicit bridge interface]
     ENG --> RECEIPT[Evidence / receipts]
     RECEIPT --> OS[DrMarchand’s ∞ OS™ presentation]

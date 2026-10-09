@@ -12,7 +12,7 @@ def required_path(name: str) -> str:
 
 def run_intake():
     print("\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-    print("DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ : HubSpot Semantic Intake")
+    print("DrMarchand’s ⚙︎ Nɛuro-Forge Engine : HubSpot Semantic Intake")
     print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 
     name = input("Agency/Partner Name: ")

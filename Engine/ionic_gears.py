@@ -1,4 +1,4 @@
-# ⚛︎ Nɛuro-Forge Engine™ : Ionic Layer
+# ⚛︎ Nɛuro-Forge Engine : Ionic Layer
 
 from datetime import datetime
 

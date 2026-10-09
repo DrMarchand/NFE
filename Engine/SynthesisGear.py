@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # ==========================================
-# DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ : SynthesisGear
+# DrMarchand’s ⚙︎ Nɛuro-Forge Engine : SynthesisGear
 # Purpose : Chaining Ionic Calculus & Core Output
 # ==========================================
 import os

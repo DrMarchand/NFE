@@ -3,7 +3,7 @@ import importlib.util
 import sys
 
 # =====================================================================
-# ⚙︎ Nɛuro-Forge Engine™ : Actuator Registry
+# ⚙︎ Nɛuro-Forge Engine : Actuator Registry
 # Protocol: The Instinct Bus Contract
 # =====================================================================
 

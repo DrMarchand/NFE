@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # ==========================================
-# DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ : NexusGear
+# DrMarchand’s ⚙︎ Nɛuro-Forge Engine : NexusGear
 # Purpose : Configured data connections and Atlas environment loading
 # ==========================================
 import json

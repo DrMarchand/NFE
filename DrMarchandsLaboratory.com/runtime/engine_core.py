@@ -5,7 +5,7 @@ import shutil
 from actuator_registry import ActuatorRegistry
 
 # =====================================================================
-# DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ : Runtime Core (v5)
+# DrMarchand’s ⚙︎ Nɛuro-Forge Engine : Runtime Core (v5)
 # Working environment: 🔬 DrMarchand’s Lab⚛︎ratory™
 # Historical environment label: Lionheart [Beta]
 # =====================================================================

@@ -1,11 +1,11 @@
-# Public configuration template for DrMarchand’s ⚙︎ Nɛuro-Forge Engine™.
+# Public configuration template for DrMarchand’s ⚙︎ Nɛuro-Forge Engine.
 # This file intentionally contains no operational hostnames, private paths,
 # device identities, credentials, or local-production markers.
 
 ATLAS_STATUS="Working configuration sample"
 ATLAS_AUTHORITY="Design Orchard LLC"
 ATLAS_RUNTIME="🔬 DrMarchand’s Lab⚛︎ratory™"
-ATLAS_ENGINE="DrMarchand’s ⚙︎ Nɛuro-Forge Engine™"
+ATLAS_ENGINE="DrMarchand’s ⚙︎ Nɛuro-Forge Engine"
 ATLAS_OS="DrMarchand’s ∞ OS™"
 ATLAS_ARCHIVE="📚 DrMarchand’s ⚛︎ Library™"
 ATLAS_CANVAS="DrMarchand’s 🎨 Creative Canvas"

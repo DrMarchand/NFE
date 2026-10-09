@@ -4,7 +4,7 @@ Status: working public identity record; not proof of runtime, ownership, registr
 
 - **Legal and operating company:** Design Orchard LLC
 - **Working environment:** 🔬 DrMarchand’s Lab⚛︎ratory™
-- **Execution system:** DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
+- **Execution system:** DrMarchand’s ⚙︎ Nɛuro-Forge Engine
 - **Presentation system:** DrMarchand’s ∞ OS™
 - **Preservation layer:** 📚 DrMarchand’s ⚛︎ Library™
 

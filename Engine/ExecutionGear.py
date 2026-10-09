@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # ==========================================
-# DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ : ExecutionGear
+# DrMarchand’s ⚙︎ Nɛuro-Forge Engine : ExecutionGear
 # Purpose : Authorized filesystem workspace preparation
 # ==========================================
 import os
