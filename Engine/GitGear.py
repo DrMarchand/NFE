@@ -1,17 +1,14 @@
-import subprocess
-import os
+"""Git operations require a separately authorized, scoped executor."""
+
 
 class GitGear:
-    def __init__(self):
-        self.repo_path = os.path.expanduser("~/lab")
-
     def chronicle(self, message):
-        """Commits the current state to the permanent record."""
-        try:
-            print(f"📡 [GIT-GEAR] Chronicling to GitHub: {message}")
-            subprocess.run(["git", "-C", self.repo_path, "add", "."], check=True)
-            subprocess.run(["git", "-C", self.repo_path, "commit", "-m", message], check=True)
-            # subprocess.run(["git", "-C", self.repo_path, "push"], check=True) 
-            print("🟩 [GIT-GEAR] Chronicle Complete.")
-        except Exception as e:
-            print(f"🚨 [GIT-GEAR] Failed to chronicle: {e}")
+        """Refuse legacy automatic staging and commits.
+
+        This compatibility entry point intentionally fails closed.
+        """
+        raise PermissionError(
+            "Automatic Git chronicles are disabled. "
+            "Require human approval, an explicit file allowlist, "
+            "and an independently validated execution contract."
+        )
