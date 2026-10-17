@@ -1,14 +1,14 @@
-# DrMarchand’s ∞ OS™ Notice
+# DrMarchand’s OS™ Notice
 
 Status: working public identity record; not proof of runtime, ownership, registration, or publication
 
 - **Legal and operating company:** Design Orchard LLC
-- **Working environment:** 🔬 DrMarchand’s Lab⚛︎ratory™
+- **Working environment:** 🔬 DrMarchand’s Lab⚛︎ratory
 - **Execution system:** DrMarchand’s ⚙︎ Nɛuro-Forge Engine
-- **Presentation system:** DrMarchand’s ∞ OS™
-- **Preservation layer:** 📚 DrMarchand’s ⚛︎ Library™
+- **Presentation system:** DrMarchand’s OS™
+- **Preservation layer:** 📚 DrMarchand’s ⚛︎ Library
 
-`DrMarchand’s OS™`, `Infinity OS`, and `Infinite OS` are superseded naming and may remain only where provenance or compatibility requires them. The current public presentation identity is `DrMarchand’s ∞ OS™`.
+`Infinity OS` and `Infinite OS` are superseded naming and may remain only where provenance or compatibility requires them. The current public presentation identity is `DrMarchand’s OS™`.
 
 Local-production markers and private build identities are intentionally excluded from this public repository.
 
