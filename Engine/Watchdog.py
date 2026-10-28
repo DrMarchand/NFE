@@ -40,7 +40,7 @@ class EngineEventHandler(FileSystemEventHandler):
             with open(path, "rb") as stream:
                 payload = stream.read()
             digest = hashlib.sha256(payload).hexdigest()
-            gear = ScoringGear(path)
+            gear = ScoringGear.from_payload(json.loads(payload))
             score = gear.calculate_score()
             proposal = {
                 "kind": "node_observation",
@@ -80,3 +80,4 @@ class WatchdogDaemon:
 
 if __name__ == "__main__":
     WatchdogDaemon().start()
+
