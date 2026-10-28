@@ -1,5 +1,6 @@
 import json
 import os
+import math
 
 
 class ScoringGear:
@@ -7,6 +8,25 @@ class ScoringGear:
         with open(partner_file_path, "r") as f:
             self.partner = json.load(f)
         self.score = 50
+
+    @classmethod
+    def from_payload(cls, payload):
+        """Score one already-read JSON snapshot, never reopen its source path."""
+        if not isinstance(payload, dict):
+            raise ValueError("Node payload must be an object")
+        for key in ("capabilities", "execution_fit", "risk_profile"):
+            if key in payload and not isinstance(payload[key], dict):
+                raise ValueError(f"{key} must be an object")
+        match = payload.get("execution_fit", {}).get("match_score", 50)
+        if isinstance(match, bool) or not isinstance(match, (int, float)) or not math.isfinite(match):
+            raise ValueError("match_score must be finite numeric data")
+        flags = payload.get("risk_profile", {}).get("red_flags", [])
+        if not isinstance(flags, list) or not all(isinstance(flag, str) for flag in flags):
+            raise ValueError("red_flags must be a list of strings")
+        instance = cls.__new__(cls)
+        instance.partner = payload
+        instance.score = 50
+        return instance
 
     def calculate_score(self):
         print(f"⚙︎ [SCORING GEAR] Analyzing Partner: {self.partner.get('display_name')}")
@@ -61,3 +81,4 @@ if __name__ == "__main__":
     print(f"📊 PARTNER LAB-FIT SCORE : {final_score} / 100")
     print(f"⚖️ VERDICT               : {gear.verdict()}")
     print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n")
+
