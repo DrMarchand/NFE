@@ -35,6 +35,7 @@ The Engine may execute, validate, and orchestrate within delegated permission. I
 ## Source map
 
 - [`Engine/core.py`](Engine/core.py) - current Python Engine entry-oriented source.
+- [`docs/JHSPR-LANGUAGE-BOUNDARY.md`](docs/JHSPR-LANGUAGE-BOUNDARY.md) - proposed JHSPR (Jasper) polyglot-language boundaries and the distinct roles of MURI, DOLSA, and the Engine; implementation and conformance remain unverified.
 - [`core/system/runtime/atlas.env.pro`](core/system/runtime/atlas.env.pro) - release-safe configuration template with private runtime values intentionally blank.
 - [`DrMarchandsLaboratory.com/`](DrMarchandsLaboratory.com/) - Laboratory-facing source and working records retained inside the Engine repository.
 
@@ -49,6 +50,6 @@ Public code should avoid credentials, private device identities, private storage
 ## Authority and rights
 
 **Legal and operating company:** Design Orchard LLC  
-**Operating environment:** 🔬 DrMarchand’s Lab⚛︎ratory
+**Operating environment:** 🔬 DrMarchand’s Lab⚛︎ratory™
 
 See [`RIGHTS.md`](RIGHTS.md). Existing file-specific licenses and third-party rights remain controlling.
