@@ -7,6 +7,14 @@
 **Audience:** Public, release-safe engineering documentation  
 **Implementation status:** Source and runtime evidence pending
 
+## Canonical JHSPR documentation and identity
+
+The **proposed canonical JHSPR documentation home** is the Laboratory's [JHSPR versioned record](https://github.com/DrMarchand/drmarchandslaboratory.com/blob/docs/jhspr-architecture-20261106/JHSPR/README.md). Its first documentation snapshot is `0.0.1-initializing`. This NFE page is a **consumer-side architecture note**, not a second JHSPR ownership registry, language definition, or independent release stream.
+
+The proposed Design Orchard [dynamic identity display standard](https://github.com/DrMarchand/DesignOrchard.LLC/blob/docs/jhspr-v0.0.1-initializing-20261106/Registry/Identity/dynamic-identity-display-v0.0.1.md) separates the ALT symbol, exact identity name, open `identity.type`, and work-specific rights. **JHSPR is classified `programming_language`**, not automatically a product or service. Its currently proposed display is `⚛︎ JHSPR`; a `© YEAR OWNER` suffix is conditional on verified work-specific ownership and authorization.
+
+These links point to **draft PR branches**, not released main-branch versions. Source implementation, copyright ownership, DOLSA conformance, and JHSPR runtime integration remain unverified.
+
 ## Responsibility boundaries
 
 | Component | Intended responsibility | Does not establish |
